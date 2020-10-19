@@ -22,7 +22,7 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  /* color: #2c98f0; */
   -webkit-transition: 50ms;
   -o-transition: 50ms;
   transition: 50ms; }
@@ -1480,8 +1480,8 @@ body.offcanvas {
   	-webkit-border-radius:50%;
   	border-radius:50%;
   	text-align:center;
-  	width: 30px;
-  	height: 30px;
+  	width: 40px;
+  	height: 40px;
   	font-size:20px;
   	background-color: #D3D3D3;
   }
