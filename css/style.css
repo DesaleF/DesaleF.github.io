@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -23,9 +23,9 @@ body {
 
 a {
   color: #2c98f0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 50ms;
+  -o-transition: 50ms;
+  transition: 50ms; }
   a:hover, a:active, a:focus {
     color: #2c98f0;
     outline: none;
@@ -81,9 +81,9 @@ figure {
   overflow-y: scroll;
   z-index: 1001;
   background: #f2f3f7;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition:50ms;
+  -o-transition: 50ms;
+  transition: 50ms; }
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -145,9 +145,9 @@ figure {
           position: relative;
           padding: 10px 0;
           font-family: "Quicksand", Arial, sans-serif;
-          -webkit-transition: 0.3s;
-          -o-transition: 0.3s;
-          transition: 0.3s; }
+          -webkit-transition: 50ms;
+          -o-transition: 50ms;
+          transition: 50ms; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
@@ -162,11 +162,11 @@ figure {
             -ms-transform: scaleX(0);
             -o-transform: scaleX(0);
             transform: scaleX(0);
-            -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            -webkit-transition: all 50ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            -moz-transition: all 50ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            -ms-transition: all 50ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            -o-transition: all 50ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all 50ms cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
             color: black; }
@@ -222,9 +222,9 @@ figure {
 #colorlib-main {
   width: calc(100% - 300px);
   float: right;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 50ms;
+  -o-transition: 50ms;
+  transition: 50ms; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
@@ -881,9 +881,9 @@ body.offcanvas {
       -ms-transform: scale(1);
       -o-transform: scale(1);
       transform: scale(1);
-      -webkit-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
+      -webkit-transition: 50ms;
+      -o-transition: 50ms;
+      transition: 50ms; }
   .blog-entry .desc h3 {
     font-size: 16px;
     margin-bottom: 25px;
@@ -943,9 +943,9 @@ body.offcanvas {
     right: 0;
     background: #2c98f0;
     opacity: 0;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s; }
+    -webkit-transition: 50ms;
+    -o-transition: 50ms;
+    transition: 50ms }
     .project .desc .con {
       padding: 20px;
       display: block;
@@ -976,12 +976,12 @@ body.offcanvas {
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1px;
-      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+      -webkit-transition: -webkit-transform 50ms, opacity 50ms;
+      -webkit-transition: opacity 50ms, -webkit-transform 50ms;
+      transition: opacity 50ms, -webkit-transform 50ms;
+      -o-transition: transform 50ms, opacity 50ms;
+      transition: transform 50ms, opacity 50ms;
+      transition: transform 50ms, opacity 50ms, -webkit-transform 50ms;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
@@ -991,12 +991,12 @@ body.offcanvas {
       display: block;
       color: rgba(255, 255, 255, 0.7);
       font-size: 13px;
-      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+      -webkit-transition: -webkit-transform 50ms, opacity 50ms;
+      -webkit-transition: opacity 50ms, -webkit-transform 50ms;
+      transition: opacity 50ms, -webkit-transform 50ms;
+      -o-transition: transform 50ms, opacity 50ms;
+      transition: transform 50ms, opacity 50ms;
+      transition: transform 50ms, opacity 50ms, -webkit-transform 50ms;
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
@@ -1169,9 +1169,9 @@ body.offcanvas {
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
   padding: 8px 15px !important; }
   .btn.btn-sm {
     padding: 4px 15px !important; }
@@ -1263,9 +1263,9 @@ body.offcanvas {
   background: none;
   border: 2px solid gray;
   font-size: 16px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
+  -webkit-transition: 50ms;
+  -o-transition: 50ms;
+  transition: 50ms; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -1282,9 +1282,9 @@ body.offcanvas {
   height: 54px;
   font-size: 16px;
   font-weight: 400;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 50ms;
+  -o-transition: 50ms;
+  transition: 50ms;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -1322,9 +1322,9 @@ body.offcanvas {
     text-transform: uppercase;
     text-indent: -55px;
     background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    transition: all .2s ease-out; }
+    -webkit-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out; }
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
       width: 30px;
@@ -1332,21 +1332,21 @@ body.offcanvas {
       background: #000;
       position: absolute;
       left: 0;
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s; }
+      -webkit-transition: 0.1s;
+      -o-transition: 0.1s;
+      transition: 0.1s; }
   .colorlib-nav-toggle.dark i {
     position: relative;
     color: #000;
     background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    transition: all .2s ease-out; }
+    -webkit-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out; }
     .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
       background: #000;
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s; }
+      -webkit-transition: 0.1s;
+      -o-transition: 0.1s;
+      transition: 0.1s; }
 
 .colorlib-nav-toggle i::before {
   top: -7px; }
@@ -1388,9 +1388,9 @@ body.offcanvas {
   opacity: 1;
   visibility: hidden;
   padding: 20px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s; }
   @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
       opacity: 1;
@@ -1427,3 +1427,86 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+
+
+
+
+
+  ul.social-network {
+  	list-style: none;
+  	display: inline;
+  	margin-left:0 !important;
+  	padding: 0;
+  }
+  ul.social-network li {
+  	display: inline;
+  	margin: 0 3px;
+  }
+
+  .social-network a.icoRss:hover {
+  	background-color: #F56505;
+  }
+  .social-network a.icoFacebook:hover {
+  	background-color:#3B5998;
+  }
+  .social-network a.icoTwitter:hover {
+  	background-color:#33ccff;
+  }
+  .social-network a.icoGoogle:hover {
+  	background-color:#BD3518;
+  }
+  .social-network a.icoVimeo:hover {
+  	background-color:#0590B8;
+  }
+  .social-network a.icoLinkedin:hover {
+  	background-color:#007bb7;
+  }
+  .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+  .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  	color:#fff;
+  }
+  a.socialIcon:hover, .socialHoverClass {
+  	color:#44BCDD;
+  }
+
+  .social-circle li a {
+  	display:inline-block;
+  	position:relative;
+  	margin:0 auto 0 auto;
+  	-moz-border-radius:50%;
+  	-webkit-border-radius:50%;
+  	border-radius:50%;
+  	text-align:center;
+  	width: 30px;
+  	height: 30px;
+  	font-size:20px;
+  	background-color: #D3D3D3;
+  }
+  .social-circle li i {
+  	margin:0;
+  	line-height:30px;
+  	text-align: center;
+  }
+
+  .social-circle li a:hover i, .triggeredHover {
+  	-moz-transform: rotate(360deg);
+  	-webkit-transform: rotate(360deg);
+  	-ms--transform: rotate(360deg);
+  	transform: rotate(360deg);
+  	-webkit-transition: all 0.2s;
+  	-moz-transition: all 0.2s;
+  	-o-transition: all 0.2s;
+  	-ms-transition: all 0.2s;
+  	transition: all 0.2s;
+  }
+  .social-circle i {
+  	color: #fff;
+  	-webkit-transition: all 0.8s;
+  	-moz-transition: all 0.8s;
+  	-o-transition: all 0.8s;
+  	-ms-transition: all 0.8s;
+  	transition: all 0.8s;
+  }
